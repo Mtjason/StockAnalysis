@@ -24,7 +24,7 @@ import math
 
 sdk = FubonSDK()
 
-accounts = sdk.login("A130216973", "Tang8264", r"C:\CAFubon\A130216973\A130216973.pfx", "JT205122")
+accounts = sdk.login("", "", r"", "")
 
 #------------------------------Confidential------------------------------
 '''
