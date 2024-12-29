@@ -26,20 +26,12 @@ sdk = FubonSDK()
 
 accounts = sdk.login("", "", r"", "")
 
-#------------------------------Confidential------------------------------
-'''
-Result {
-  is_success: False,
-  message: 無簽署完成API使用風險暨聲明書帳號，請與營業員聯絡,
-  data: None
-}
-'''
 # 資料庫參數設定
 db_settings = {
     "host": "127.0.0.1",
     "port": 3306,
     "user": "root",
-    "password": "jason8744",
+    "password": "",
     "database": "twstockinfo"
 }
 
